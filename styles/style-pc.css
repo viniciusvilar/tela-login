@@ -1,0 +1,97 @@
+@media (min-width: 992px) {
+    body {
+        background-color: #033E8C;
+    }
+
+    section {
+        width: 950px;
+        height: 350px;
+    }
+
+    div.central {
+        width: 475px;
+    }
+    
+    div#image {
+        background-size: cover;
+        background-position: center center;
+        height: 350px;
+
+        position: absolute;
+        left: 50%;
+    }
+
+    div#form {
+        height: 350px;
+
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    div#form > h1 {
+        font-size: 32px;
+        padding: 15px;
+    }
+
+    div#form > p {
+        font-size: 1em;
+        text-align: left;
+
+        padding-left: 15px;
+
+        margin-bottom: 20px;
+    }
+
+    div#inside-form {
+        position: absolute;
+        width: 475px;
+    }
+
+    div#form-email {
+        width: 450px;
+    }
+    div#form-senha {
+        width: 450px;
+    }
+
+    input.sendInfo {
+        width: 391px;
+        left: 55%;
+    }
+
+    button.btn {
+        width: 450px;
+    }
+    
+    button#enter {
+        position: relative;
+        margin-top: 100px;
+        margin-bottom: 5px;
+        left: 47.8%;
+    }
+
+    button#forgetPass {
+        position: relative;
+        left: 47.8%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
