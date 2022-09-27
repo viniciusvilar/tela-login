@@ -23,7 +23,6 @@
 
     div#form {
         height: 350px;
-
         border-radius: 20px 0px 0px 20px;
     }
 
@@ -35,9 +34,7 @@
     div#form > p {
         font-size: 1em;
         text-align: left;
-
         padding-left: 15px;
-
         margin-bottom: 20px;
     }
 
@@ -60,18 +57,15 @@
 
     button.btn {
         width: 450px;
+        
     }
-    
+   
     button#enter {
-        position: relative;
         margin-top: 100px;
-        margin-bottom: 5px;
-        left: 47.8%;
     }
 
     button#forgetPass {
-        position: relative;
-        left: 47.8%;
+        margin-top: 145px;
     }
 
 
