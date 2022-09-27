@@ -1,6 +1,6 @@
 @media (min-width: 992px) {
     body {
-        background-color: #033E8C;
+        background: linear-gradient(to top, #05AFF2, #033E8C);
     }
 
     section {
