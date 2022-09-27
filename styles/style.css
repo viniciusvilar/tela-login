@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+body {
+    background-color: #033E8C;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    border-radius: 20px;
+
+    width: 250px;
+    height: 515px;
+    background-color: purple;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.central {
+    width: 250px;
+}
+
+div#image {
+    background-image: url("../img/pc-novo.jpg");
+    background-position: center center;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: gray;
+}
+
+div#form {
+    height: 315px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: white;
+    text-align: center;
+    
+}
+
+
+div#form > h1 {
+    padding: 0px;
+}
+
+div#form > p {
+    font-size: 14px;
+    padding: 5px;
+}
+
+div#inside-form {
+    margin-top: 5px;
+}
+
+div#form-email {
+    width: 230px;
+    height: 40px;
+    background-color: #033E8C;
+    border-radius: 8px;
+
+    margin-top: 15px;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+div#form-senha {
+    width: 230px;
+    height: 40px;
+    background-color: #033E8C;
+    border-radius: 8px;
+
+    margin-top: 57px;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+img {
+    padding-top: 5px;
+    padding-left: 10px;
+    float: left;
+}
+
+input.sendInfo {
+    width: 170px;
+    height: 23px;
+    padding: 4px;
+    border: none;
+    border-radius: 8px;
+    background-color: #57cdfcc4;
+
+    font-size: 15px;
+
+    position: absolute;
+    top: 50%;
+    left: 59%;
+    transform: translate(-50%, -50%);
+}
+
+button.btn {
+    width: 230px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+button#enter {
+    color: white;
+    background-color: #05AFF2;
+
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button#enter:hover {
+    background-color: rgb(3, 103, 143);
+}
+
+button#forgetPass {
+    color: #49a09d;
+    border: 2px solid #05AFF2;
+
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button#forgetPass:hover {
+    background-color: #bae8f8;
+}
+
